@@ -8,7 +8,7 @@ interface Props {
 }
 
 export const FlipImage: React.FC<Props> = ({ src, title, content }) => {
-  const [hovering, setHovering] = useState(true);
+  const [hovering, setHovering] = useState(false);
   return (
     <Container onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
       <div>{title}</div>
