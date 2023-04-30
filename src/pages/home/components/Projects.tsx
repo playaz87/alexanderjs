@@ -17,6 +17,7 @@ export const Projects: React.FC = () => {
           src={'/images/tome-of-d2.png'}
           title={'Tome of D2'}
           content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}
+          showHint={true}
         />
       </div>
       {/*<ProjectWrapper ref={tod2}>*/}
